@@ -1,5 +1,5 @@
-#A simple python program to check whether a year is a leap year or not;
-year = 2024
+#A simple Python program to check whether a year is a leap year or not;
+year = 2021
 if year % 4 == 0 and year % 100 !=0:
     print(year, "is a leap year")
 else:
@@ -7,10 +7,10 @@ else:
 
 
 
-#.2.A Pyhton program that checks whether a letter is a vowel or a consonant
-letter = "a"
+#.2.A Python program that checks whether a letter is a vowel or a consonant;
+letter = "B"
 vowels = "aeiouAEIOU"
 if letter in vowels:
     print(letter, "is a vowel")
 else:
-    print(letter, "is not a vowel")
+    print(letter, "is a consonant")
